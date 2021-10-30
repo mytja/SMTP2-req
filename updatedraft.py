@@ -11,7 +11,7 @@ headers = {
 }
 
 data = {
-    "ID": "0",
+    "ID": "2",
     "To": "mytja-test@127.0.0.1:8081",
     "Body": "Hehej",
     "Title": "Zelo resen pozdrav"
