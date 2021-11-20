@@ -8,7 +8,7 @@ uri = "http://127.0.0.1:8080/smtp2/message/new"
 data = {
     "Title": "Pozdravi",
     "Body": "Še eni pozdravi - tokrat iz bodyja",
-    "To": "mytja-test@127.0.0.1:8081",
+    "To": "mytja-test@127.0.0.1:8081;mytja-test@127.0.0.1:8082",
     #"ReplyTo": "1"
 }
 
