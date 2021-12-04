@@ -8,6 +8,6 @@ print(r.text)
 j = r.json()
 
 message = j[-1]
-r = requests.get(message["URI"])
+r = requests.get(message["URI"], headers=headers)
 print(r)
 print(r.text)

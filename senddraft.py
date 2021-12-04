@@ -6,7 +6,7 @@ import requests
 
 uri = "http://127.0.0.1:8080/smtp2/message/new"
 data = {
-    "DraftID": "4"
+    "DraftID": "22"
 }
 
 headers = {
