@@ -4,8 +4,8 @@ import requests
 #import os
 #os.environ["HTTP_PROXY"] = "http://127.0.0.1:8082"
 
-mid = "0"
-aid = "0"
+mid = "32"
+aid = "6"
 
 uri = f"http://127.0.0.1:8080/smtp2/attachment/get/{mid}/{aid}"
 

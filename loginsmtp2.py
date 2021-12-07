@@ -11,4 +11,4 @@ data = {
 r = requests.post("http://127.0.0.1:8080/smtp2/user/login", data=data)
 print(r)
 with open("key.txt", "w+") as f:
-    f.write(r.text)
+    f.write(r.json()["data"])
